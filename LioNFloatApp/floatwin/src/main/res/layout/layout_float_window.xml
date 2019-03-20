@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="44dp"
+    android:layout_height="44dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_floating_front_tips_container"
+                android:layout_width="44dp"
+                android:layout_height="44dp">
+
+                <ImageView
+                    android:id="@+id/floating_front"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/float_menu" />
+
+            </RelativeLayout>
+
+</FrameLayout>
